@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED9BC52C24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */; };
 		EDE8CC1B24C1476400BA1AB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8CC1A24C1476400BA1AB1 /* AppDelegate.swift */; };
 		EDE8CC1D24C1476400BA1AB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8CC1C24C1476400BA1AB1 /* SceneDelegate.swift */; };
 		EDE8CC1F24C1476400BA1AB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8CC1E24C1476400BA1AB1 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticDismissalView.swift; sourceTree = "<group>"; };
 		EDE8CC1724C1476400BA1AB1 /* SwiftUIDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE8CC1A24C1476400BA1AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDE8CC1C24C1476400BA1AB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED9BC52A24C14DF700E73AD3 /* DemoViews */ = {
+			isa = PBXGroup;
+			children = (
+				ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */,
+			);
+			path = DemoViews;
+			sourceTree = "<group>";
+		};
 		EDE8CC0E24C1476400BA1AB1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		EDE8CC1924C1476400BA1AB1 /* SwiftUIDemos */ = {
 			isa = PBXGroup;
 			children = (
+				ED9BC52A24C14DF700E73AD3 /* DemoViews */,
 				EDE8CC1A24C1476400BA1AB1 /* AppDelegate.swift */,
 				EDE8CC1C24C1476400BA1AB1 /* SceneDelegate.swift */,
 				EDE8CC1E24C1476400BA1AB1 /* ContentView.swift */,
@@ -146,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED9BC52C24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift in Sources */,
 				EDE8CC1B24C1476400BA1AB1 /* AppDelegate.swift in Sources */,
 				EDE8CC1D24C1476400BA1AB1 /* SceneDelegate.swift in Sources */,
 				EDE8CC1F24C1476400BA1AB1 /* ContentView.swift in Sources */,
