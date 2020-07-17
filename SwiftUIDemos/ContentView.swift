@@ -1,18 +1,25 @@
 import SwiftUI
 
 struct ContentView: View {
-  @State var showingDetail = false
+  @State var showingProgrammaticDismissalViewDemo = false
+  @State var showingSheetNavigationViewDemo = false
 
   var body: some View {
     NavigationView {
       List {
         Button("Modal Dismissal") {
-          self.showingDetail.toggle()
+          self.showingProgrammaticDismissalViewDemo.toggle()
         }
-        .sheet(isPresented: $showingDetail) {
+        .sheet(isPresented: $showingProgrammaticDismissalViewDemo) {
           ProgrammaticDismissalView()
         }
 
+        Button("Navigation in Modal") {
+          self.showingSheetNavigationViewDemo.toggle()
+        }
+        .sheet(isPresented: $showingSheetNavigationViewDemo) {
+          SheetNavigationView(showSheetView: self.$showingSheetNavigationViewDemo)
+        }
       }
       .navigationBarTitle("Demos")
     }

@@ -1,11 +1,3 @@
-//
-//  ProgrammaticDismissalView.swift
-//  SwiftUIDemos
-//
-//  Created by Bryan Oltman on 7/16/20.
-//  Copyright © 2020 Bryan Oltman. All rights reserved.
-//
-
 import SwiftUI
 
 struct ProgrammaticDismissalView: View {
