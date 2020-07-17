@@ -32,8 +32,8 @@ struct LastPushedView: View {
   }
 }
 
-//struct SheetNavigationView_Previews: PreviewProvider {
-//  static var previews: some View {
-//    SheetNavigationView()
-//  }
-//}
+struct SheetNavigationView_Previews: PreviewProvider {
+  static var previews: some View {
+    SheetNavigationView(showSheetView: .constant(true))
+  }
+}
