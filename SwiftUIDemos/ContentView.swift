@@ -20,6 +20,10 @@ struct ContentView: View {
         .sheet(isPresented: $showingSheetNavigationViewDemo) {
           SheetNavigationView(showSheetView: self.$showingSheetNavigationViewDemo)
         }
+
+        NavigationLink(destination: GeometryAnimationView()) {
+          Text("Geometry Navigation View")
+        }
       }
       .navigationBarTitle("Demos")
     }
