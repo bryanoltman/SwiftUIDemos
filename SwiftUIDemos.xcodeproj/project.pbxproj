@@ -11,6 +11,8 @@
 		ED9BC52C24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */; };
 		ED9BC52E24C1509100E73AD3 /* SheetNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9BC52D24C1509100E73AD3 /* SheetNavigationView.swift */; };
 		EDB0A09D24CA65FB00F1D467 /* LetterSizeAnimationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB0A09C24CA65FB00F1D467 /* LetterSizeAnimationDemoView.swift */; };
+		EDB0A0A024CA6B9100F1D467 /* FlowerAnimationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB0A09F24CA6B9100F1D467 /* FlowerAnimationDemoView.swift */; };
+		EDB0A0A224CA6C4600F1D467 /* SkewAnimationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB0A0A124CA6C4600F1D467 /* SkewAnimationDemoView.swift */; };
 		EDE8CC1B24C1476400BA1AB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8CC1A24C1476400BA1AB1 /* AppDelegate.swift */; };
 		EDE8CC1D24C1476400BA1AB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8CC1C24C1476400BA1AB1 /* SceneDelegate.swift */; };
 		EDE8CC1F24C1476400BA1AB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8CC1E24C1476400BA1AB1 /* ContentView.swift */; };
@@ -24,6 +26,8 @@
 		ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticDismissalView.swift; sourceTree = "<group>"; };
 		ED9BC52D24C1509100E73AD3 /* SheetNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetNavigationView.swift; sourceTree = "<group>"; };
 		EDB0A09C24CA65FB00F1D467 /* LetterSizeAnimationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterSizeAnimationDemoView.swift; sourceTree = "<group>"; };
+		EDB0A09F24CA6B9100F1D467 /* FlowerAnimationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerAnimationDemoView.swift; sourceTree = "<group>"; };
+		EDB0A0A124CA6C4600F1D467 /* SkewAnimationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkewAnimationDemoView.swift; sourceTree = "<group>"; };
 		EDE8CC1724C1476400BA1AB1 /* SwiftUIDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE8CC1A24C1476400BA1AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDE8CC1C24C1476400BA1AB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				EDB0A09C24CA65FB00F1D467 /* LetterSizeAnimationDemoView.swift */,
+				EDB0A09F24CA6B9100F1D467 /* FlowerAnimationDemoView.swift */,
+				EDB0A0A124CA6C4600F1D467 /* SkewAnimationDemoView.swift */,
 			);
 			path = SwiftUILabDemos;
 			sourceTree = "<group>";
@@ -174,7 +180,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDB0A0A024CA6B9100F1D467 /* FlowerAnimationDemoView.swift in Sources */,
 				ED9BC52C24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift in Sources */,
+				EDB0A0A224CA6C4600F1D467 /* SkewAnimationDemoView.swift in Sources */,
 				EDB0A09D24CA65FB00F1D467 /* LetterSizeAnimationDemoView.swift in Sources */,
 				ED9BC52E24C1509100E73AD3 /* SheetNavigationView.swift in Sources */,
 				ED508BA124CA5AAC009341DC /* TextColorAnimationDemoView.swift in Sources */,

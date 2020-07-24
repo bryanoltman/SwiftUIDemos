@@ -9,7 +9,7 @@ extension Double {
   var deg: Double { return self * 180 / .pi }
 }
 
-struct Example12: View {
+struct LetterSizeAnimationDemoView: View {
   @State private var flag = false
 
   var body: some View {

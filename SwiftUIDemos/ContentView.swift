@@ -14,8 +14,16 @@ struct ContentView: View {
         }
 
         Section(header: Text("The SwiftUI Lab")) {
-          NavigationLink(destination: Example12()) {
+          NavigationLink(destination: LetterSizeAnimationDemoView()) {
             Text("Letter size animation")
+          }
+
+          NavigationLink(destination: FlowerAnimationDemoView()) {
+            Text("Flower animation")
+          }
+
+          NavigationLink(destination: SkewAnimationDemoView()) {
+            Text("Skew animation")
           }
         }
 
