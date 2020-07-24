@@ -10,6 +10,7 @@
 		ED508BA124CA5AAC009341DC /* TextColorAnimationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED508BA024CA5AAC009341DC /* TextColorAnimationDemoView.swift */; };
 		ED9BC52C24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */; };
 		ED9BC52E24C1509100E73AD3 /* SheetNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9BC52D24C1509100E73AD3 /* SheetNavigationView.swift */; };
+		EDB0A09D24CA65FB00F1D467 /* LetterSizeAnimationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB0A09C24CA65FB00F1D467 /* LetterSizeAnimationDemoView.swift */; };
 		EDE8CC1B24C1476400BA1AB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8CC1A24C1476400BA1AB1 /* AppDelegate.swift */; };
 		EDE8CC1D24C1476400BA1AB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8CC1C24C1476400BA1AB1 /* SceneDelegate.swift */; };
 		EDE8CC1F24C1476400BA1AB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8CC1E24C1476400BA1AB1 /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 		ED508BA024CA5AAC009341DC /* TextColorAnimationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextColorAnimationDemoView.swift; sourceTree = "<group>"; };
 		ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticDismissalView.swift; sourceTree = "<group>"; };
 		ED9BC52D24C1509100E73AD3 /* SheetNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetNavigationView.swift; sourceTree = "<group>"; };
+		EDB0A09C24CA65FB00F1D467 /* LetterSizeAnimationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterSizeAnimationDemoView.swift; sourceTree = "<group>"; };
 		EDE8CC1724C1476400BA1AB1 /* SwiftUIDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE8CC1A24C1476400BA1AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDE8CC1C24C1476400BA1AB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 			path = DemoViews;
 			sourceTree = "<group>";
 		};
+		EDB0A09E24CA6AAB00F1D467 /* SwiftUILabDemos */ = {
+			isa = PBXGroup;
+			children = (
+				EDB0A09C24CA65FB00F1D467 /* LetterSizeAnimationDemoView.swift */,
+			);
+			path = SwiftUILabDemos;
+			sourceTree = "<group>";
+		};
 		EDE8CC0E24C1476400BA1AB1 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 		EDE8CC1924C1476400BA1AB1 /* SwiftUIDemos */ = {
 			isa = PBXGroup;
 			children = (
+				EDB0A09E24CA6AAB00F1D467 /* SwiftUILabDemos */,
 				ED9BC52A24C14DF700E73AD3 /* DemoViews */,
 				EDE8CC1A24C1476400BA1AB1 /* AppDelegate.swift */,
 				EDE8CC1C24C1476400BA1AB1 /* SceneDelegate.swift */,
@@ -164,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED9BC52C24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift in Sources */,
+				EDB0A09D24CA65FB00F1D467 /* LetterSizeAnimationDemoView.swift in Sources */,
 				ED9BC52E24C1509100E73AD3 /* SheetNavigationView.swift in Sources */,
 				ED508BA124CA5AAC009341DC /* TextColorAnimationDemoView.swift in Sources */,
 				EDE8CC1B24C1476400BA1AB1 /* AppDelegate.swift in Sources */,
