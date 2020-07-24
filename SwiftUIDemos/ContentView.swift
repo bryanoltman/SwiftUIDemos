@@ -7,18 +7,40 @@ struct ContentView: View {
   var body: some View {
     NavigationView {
       List {
-        Button("Modal Dismissal") {
-          self.showingProgrammaticDismissalViewDemo.toggle()
-        }
-        .sheet(isPresented: $showingProgrammaticDismissalViewDemo) {
-          ProgrammaticDismissalView()
+        Section(header: Text("Animation")) {
+          NavigationLink(destination: TextColorAnimationDemoView()) {
+            Text("Text Color Animation Demo")
+          }
         }
 
-        Button("Navigation in Modal") {
-          self.showingSheetNavigationViewDemo.toggle()
+        Section(header: Text("The SwiftUI Lab")) {
+          NavigationLink(destination: LetterSizeAnimationDemoView()) {
+            Text("Letter size animation")
+          }
+
+          NavigationLink(destination: FlowerAnimationDemoView()) {
+            Text("Flower animation")
+          }
+
+          NavigationLink(destination: SkewAnimationDemoView()) {
+            Text("Skew animation")
+          }
         }
-        .sheet(isPresented: $showingSheetNavigationViewDemo) {
-          SheetNavigationView(showSheetView: self.$showingSheetNavigationViewDemo)
+
+        Section(header: Text("Navigation")) {
+          Button("Modal Dismissal") {
+            self.showingProgrammaticDismissalViewDemo.toggle()
+          }
+          .sheet(isPresented: $showingProgrammaticDismissalViewDemo) {
+            ProgrammaticDismissalView()
+          }
+
+          Button("Navigation in Modal") {
+            self.showingSheetNavigationViewDemo.toggle()
+          }
+          .sheet(isPresented: $showingSheetNavigationViewDemo) {
+            SheetNavigationView(showSheetView: self.$showingSheetNavigationViewDemo)
+          }
         }
 
         NavigationLink(destination: GeometryAnimationView()) {
