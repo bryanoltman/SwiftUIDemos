@@ -13,20 +13,6 @@ struct ContentView: View {
           }
         }
 
-        Section(header: Text("The SwiftUI Lab")) {
-          NavigationLink(destination: LetterSizeAnimationDemoView()) {
-            Text("Letter size animation")
-          }
-
-          NavigationLink(destination: FlowerAnimationDemoView()) {
-            Text("Flower animation")
-          }
-
-          NavigationLink(destination: SkewAnimationDemoView()) {
-            Text("Skew animation")
-          }
-        }
-
         Section(header: Text("Navigation")) {
           Button("Modal Dismissal") {
             self.showingProgrammaticDismissalViewDemo.toggle()
@@ -43,8 +29,24 @@ struct ContentView: View {
           }
         }
 
-        NavigationLink(destination: GeometryAnimationView()) {
-          Text("Geometry Navigation View")
+        Section(header: Text("View Styling")) {
+          NavigationLink(destination: ButtonStylingDemoView()) {
+            Text("Button styling")
+          }
+        }
+
+        Section(header: Text("The SwiftUI Lab")) {
+          NavigationLink(destination: LetterSizeAnimationDemoView()) {
+            Text("Letter size animation")
+          }
+
+          NavigationLink(destination: FlowerAnimationDemoView()) {
+            Text("Flower animation")
+          }
+
+          NavigationLink(destination: SkewAnimationDemoView()) {
+            Text("Skew animation")
+          }
         }
       }
       .navigationBarTitle("Demos")

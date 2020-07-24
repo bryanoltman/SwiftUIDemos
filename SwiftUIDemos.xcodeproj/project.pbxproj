@@ -13,6 +13,8 @@
 		ED9FC35B24CB86BE00BEA9E2 /* FlowerAnimationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9FC35824CB86BE00BEA9E2 /* FlowerAnimationDemoView.swift */; };
 		ED9FC35C24CB86BE00BEA9E2 /* SkewAnimationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9FC35924CB86BE00BEA9E2 /* SkewAnimationDemoView.swift */; };
 		ED9FC35F24CB86D100BEA9E2 /* TextColorAnimationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9FC35D24CB86D100BEA9E2 /* TextColorAnimationDemoView.swift */; };
+		ED9FC36224CB932500BEA9E2 /* ButtonStylingDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9FC36124CB932500BEA9E2 /* ButtonStylingDemoView.swift */; };
+		ED9FC36524CB967500BEA9E2 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9FC36424CB967500BEA9E2 /* ColorExtensions.swift */; };
 		EDE8CC1B24C1476400BA1AB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8CC1A24C1476400BA1AB1 /* AppDelegate.swift */; };
 		EDE8CC1D24C1476400BA1AB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8CC1C24C1476400BA1AB1 /* SceneDelegate.swift */; };
 		EDE8CC1F24C1476400BA1AB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8CC1E24C1476400BA1AB1 /* ContentView.swift */; };
@@ -28,6 +30,8 @@
 		ED9FC35824CB86BE00BEA9E2 /* FlowerAnimationDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowerAnimationDemoView.swift; sourceTree = "<group>"; };
 		ED9FC35924CB86BE00BEA9E2 /* SkewAnimationDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkewAnimationDemoView.swift; sourceTree = "<group>"; };
 		ED9FC35D24CB86D100BEA9E2 /* TextColorAnimationDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextColorAnimationDemoView.swift; sourceTree = "<group>"; };
+		ED9FC36124CB932500BEA9E2 /* ButtonStylingDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylingDemoView.swift; sourceTree = "<group>"; };
+		ED9FC36424CB967500BEA9E2 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 		EDE8CC1724C1476400BA1AB1 /* SwiftUIDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE8CC1A24C1476400BA1AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDE8CC1C24C1476400BA1AB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +59,7 @@
 				ED9FC35D24CB86D100BEA9E2 /* TextColorAnimationDemoView.swift */,
 				ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */,
 				ED9BC52D24C1509100E73AD3 /* SheetNavigationView.swift */,
+				ED9FC36124CB932500BEA9E2 /* ButtonStylingDemoView.swift */,
 			);
 			path = DemoViews;
 			sourceTree = "<group>";
@@ -67,6 +72,14 @@
 				ED9FC35924CB86BE00BEA9E2 /* SkewAnimationDemoView.swift */,
 			);
 			path = SwiftUILabDemos;
+			sourceTree = "<group>";
+		};
+		ED9FC36324CB966400BEA9E2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ED9FC36424CB967500BEA9E2 /* ColorExtensions.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		EDE8CC0E24C1476400BA1AB1 = {
@@ -88,6 +101,7 @@
 		EDE8CC1924C1476400BA1AB1 /* SwiftUIDemos */ = {
 			isa = PBXGroup;
 			children = (
+				ED9FC36324CB966400BEA9E2 /* Shared */,
 				ED9FC35624CB86BE00BEA9E2 /* SwiftUILabDemos */,
 				ED9BC52A24C14DF700E73AD3 /* DemoViews */,
 				EDE8CC1A24C1476400BA1AB1 /* AppDelegate.swift */,
@@ -180,7 +194,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED9FC36524CB967500BEA9E2 /* ColorExtensions.swift in Sources */,
 				ED9FC35F24CB86D100BEA9E2 /* TextColorAnimationDemoView.swift in Sources */,
+				ED9FC36224CB932500BEA9E2 /* ButtonStylingDemoView.swift in Sources */,
 				ED9BC52C24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift in Sources */,
 				ED9FC35A24CB86BE00BEA9E2 /* LetterSizeAnimationDemoView.swift in Sources */,
 				ED9FC35C24CB86BE00BEA9E2 /* SkewAnimationDemoView.swift in Sources */,
