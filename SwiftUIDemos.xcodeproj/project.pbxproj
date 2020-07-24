@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED508BA124CA5AAC009341DC /* TextColorAnimationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED508BA024CA5AAC009341DC /* TextColorAnimationDemoView.swift */; };
 		ED9BC52C24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */; };
 		ED9BC52E24C1509100E73AD3 /* SheetNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9BC52D24C1509100E73AD3 /* SheetNavigationView.swift */; };
 		EDE8CC1B24C1476400BA1AB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8CC1A24C1476400BA1AB1 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED508BA024CA5AAC009341DC /* TextColorAnimationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextColorAnimationDemoView.swift; sourceTree = "<group>"; };
 		ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticDismissalView.swift; sourceTree = "<group>"; };
 		ED9BC52D24C1509100E73AD3 /* SheetNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetNavigationView.swift; sourceTree = "<group>"; };
 		EDE8CC1724C1476400BA1AB1 /* SwiftUIDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +48,7 @@
 			children = (
 				ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */,
 				ED9BC52D24C1509100E73AD3 /* SheetNavigationView.swift */,
+				ED508BA024CA5AAC009341DC /* TextColorAnimationDemoView.swift */,
 			);
 			path = DemoViews;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			files = (
 				ED9BC52C24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift in Sources */,
 				ED9BC52E24C1509100E73AD3 /* SheetNavigationView.swift in Sources */,
+				ED508BA124CA5AAC009341DC /* TextColorAnimationDemoView.swift in Sources */,
 				EDE8CC1B24C1476400BA1AB1 /* AppDelegate.swift in Sources */,
 				EDE8CC1D24C1476400BA1AB1 /* SceneDelegate.swift in Sources */,
 				EDE8CC1F24C1476400BA1AB1 /* ContentView.swift in Sources */,
