@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED3A08FB24C30E5200272548 /* GeometryAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A08FA24C30E5200272548 /* GeometryAnimationView.swift */; };
 		ED9BC52C24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */; };
 		ED9BC52E24C1509100E73AD3 /* SheetNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9BC52D24C1509100E73AD3 /* SheetNavigationView.swift */; };
 		ED9FC35A24CB86BE00BEA9E2 /* LetterSizeAnimationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9FC35724CB86BE00BEA9E2 /* LetterSizeAnimationDemoView.swift */; };
@@ -23,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED3A08FA24C30E5200272548 /* GeometryAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryAnimationView.swift; sourceTree = "<group>"; };
 		ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticDismissalView.swift; sourceTree = "<group>"; };
 		ED9BC52D24C1509100E73AD3 /* SheetNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetNavigationView.swift; sourceTree = "<group>"; };
 		ED9FC35724CB86BE00BEA9E2 /* LetterSizeAnimationDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterSizeAnimationDemoView.swift; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 				ED9FC35D24CB86D100BEA9E2 /* TextColorAnimationDemoView.swift */,
 				ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */,
 				ED9BC52D24C1509100E73AD3 /* SheetNavigationView.swift */,
-				ED3A08FA24C30E5200272548 /* GeometryAnimationView.swift */,
 			);
 			path = DemoViews;
 			sourceTree = "<group>";
@@ -189,7 +186,6 @@
 				ED9FC35C24CB86BE00BEA9E2 /* SkewAnimationDemoView.swift in Sources */,
 				ED9BC52E24C1509100E73AD3 /* SheetNavigationView.swift in Sources */,
 				EDE8CC1B24C1476400BA1AB1 /* AppDelegate.swift in Sources */,
-				ED3A08FB24C30E5200272548 /* GeometryAnimationView.swift in Sources */,
 				EDE8CC1D24C1476400BA1AB1 /* SceneDelegate.swift in Sources */,
 				EDE8CC1F24C1476400BA1AB1 /* ContentView.swift in Sources */,
 				ED9FC35B24CB86BE00BEA9E2 /* FlowerAnimationDemoView.swift in Sources */,
