@@ -35,6 +35,16 @@ struct ContentView: View {
           }
         }
 
+        Section(header: Text("UIViewRepresentable")) {
+          NavigationLink(destination: MaterialButtonsDemoView()) {
+            Text("Material Buttons")
+          }
+
+          NavigationLink(destination: MaterialSliderDemoView()) {
+            Text("Material Sliders")
+          }
+        }
+
         Section(header: Text("The SwiftUI Lab")) {
           NavigationLink(destination: LetterSizeAnimationDemoView()) {
             Text("Letter size animation")

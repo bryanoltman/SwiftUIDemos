@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AD959A3EC68756206D0BE5E /* Pods_SwiftUIDemos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FBA5679498FF4DEF704610 /* Pods_SwiftUIDemos.framework */; };
+		ED9B837C24DCB97600DA6A95 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9B837B24DCB97600DA6A95 /* MaterialButton.swift */; };
+		ED9B837E24DCB9A100DA6A95 /* MaterialSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9B837D24DCB9A100DA6A95 /* MaterialSlider.swift */; };
+		ED9B838024DCBA1200DA6A95 /* MaterialSliderDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9B837F24DCBA1200DA6A95 /* MaterialSliderDemoView.swift */; };
+		ED9B838224DCBA7700DA6A95 /* MaterialButtonsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9B838124DCBA7700DA6A95 /* MaterialButtonsDemoView.swift */; };
 		ED9BC52C24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */; };
 		ED9BC52E24C1509100E73AD3 /* SheetNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9BC52D24C1509100E73AD3 /* SheetNavigationView.swift */; };
 		ED9FC35A24CB86BE00BEA9E2 /* LetterSizeAnimationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9FC35724CB86BE00BEA9E2 /* LetterSizeAnimationDemoView.swift */; };
@@ -24,6 +29,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47FBA5679498FF4DEF704610 /* Pods_SwiftUIDemos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIDemos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7142E58D444A14D3255FE05B /* Pods-SwiftUIDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemos.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemos/Pods-SwiftUIDemos.debug.xcconfig"; sourceTree = "<group>"; };
+		ED9B837B24DCB97600DA6A95 /* MaterialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		ED9B837D24DCB9A100DA6A95 /* MaterialSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialSlider.swift; sourceTree = "<group>"; };
+		ED9B837F24DCBA1200DA6A95 /* MaterialSliderDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialSliderDemoView.swift; sourceTree = "<group>"; };
+		ED9B838124DCBA7700DA6A95 /* MaterialButtonsDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialButtonsDemoView.swift; sourceTree = "<group>"; };
 		ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticDismissalView.swift; sourceTree = "<group>"; };
 		ED9BC52D24C1509100E73AD3 /* SheetNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetNavigationView.swift; sourceTree = "<group>"; };
 		ED9FC35724CB86BE00BEA9E2 /* LetterSizeAnimationDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterSizeAnimationDemoView.swift; sourceTree = "<group>"; };
@@ -40,6 +51,7 @@
 		EDE8CC2324C1476600BA1AB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDE8CC2624C1476600BA1AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDE8CC2824C1476600BA1AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA273B1AE1BB8FC487D88EF /* Pods-SwiftUIDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemos.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemos/Pods-SwiftUIDemos.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,12 +59,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AD959A3EC68756206D0BE5E /* Pods_SwiftUIDemos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03FC8169203307EC0983D44F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7142E58D444A14D3255FE05B /* Pods-SwiftUIDemos.debug.xcconfig */,
+				EEA273B1AE1BB8FC487D88EF /* Pods-SwiftUIDemos.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED9B837A24DCB96800DA6A95 /* MaterialViews */ = {
+			isa = PBXGroup;
+			children = (
+				ED9B837B24DCB97600DA6A95 /* MaterialButton.swift */,
+				ED9B837D24DCB9A100DA6A95 /* MaterialSlider.swift */,
+			);
+			path = MaterialViews;
+			sourceTree = "<group>";
+		};
 		ED9BC52A24C14DF700E73AD3 /* DemoViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +91,8 @@
 				ED9BC52B24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift */,
 				ED9BC52D24C1509100E73AD3 /* SheetNavigationView.swift */,
 				ED9FC36124CB932500BEA9E2 /* ButtonStylingDemoView.swift */,
+				ED9B837F24DCBA1200DA6A95 /* MaterialSliderDemoView.swift */,
+				ED9B838124DCBA7700DA6A95 /* MaterialButtonsDemoView.swift */,
 			);
 			path = DemoViews;
 			sourceTree = "<group>";
@@ -87,6 +120,8 @@
 			children = (
 				EDE8CC1924C1476400BA1AB1 /* SwiftUIDemos */,
 				EDE8CC1824C1476400BA1AB1 /* Products */,
+				03FC8169203307EC0983D44F /* Pods */,
+				F76225CD3931054BFDF05789 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +136,7 @@
 		EDE8CC1924C1476400BA1AB1 /* SwiftUIDemos */ = {
 			isa = PBXGroup;
 			children = (
+				ED9B837A24DCB96800DA6A95 /* MaterialViews */,
 				ED9FC36324CB966400BEA9E2 /* Shared */,
 				ED9FC35624CB86BE00BEA9E2 /* SwiftUILabDemos */,
 				ED9BC52A24C14DF700E73AD3 /* DemoViews */,
@@ -123,6 +159,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F76225CD3931054BFDF05789 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47FBA5679498FF4DEF704610 /* Pods_SwiftUIDemos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -130,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDE8CC2B24C1476600BA1AB1 /* Build configuration list for PBXNativeTarget "SwiftUIDemos" */;
 			buildPhases = (
+				3F2BF4C342E3B77990B0A90E /* [CP] Check Pods Manifest.lock */,
 				EDE8CC1324C1476400BA1AB1 /* Sources */,
 				EDE8CC1424C1476400BA1AB1 /* Frameworks */,
 				EDE8CC1524C1476400BA1AB1 /* Resources */,
+				147FC5B9460A3363DA610C74 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -189,18 +235,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		147FC5B9460A3363DA610C74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIDemos/Pods-SwiftUIDemos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIDemos/Pods-SwiftUIDemos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIDemos/Pods-SwiftUIDemos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F2BF4C342E3B77990B0A90E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIDemos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDE8CC1324C1476400BA1AB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ED9FC36524CB967500BEA9E2 /* ColorExtensions.swift in Sources */,
+				ED9B837E24DCB9A100DA6A95 /* MaterialSlider.swift in Sources */,
 				ED9FC35F24CB86D100BEA9E2 /* TextColorAnimationDemoView.swift in Sources */,
+				ED9B837C24DCB97600DA6A95 /* MaterialButton.swift in Sources */,
 				ED9FC36224CB932500BEA9E2 /* ButtonStylingDemoView.swift in Sources */,
+				ED9B838224DCBA7700DA6A95 /* MaterialButtonsDemoView.swift in Sources */,
 				ED9BC52C24C14E1B00E73AD3 /* ProgrammaticDismissalView.swift in Sources */,
 				ED9FC35A24CB86BE00BEA9E2 /* LetterSizeAnimationDemoView.swift in Sources */,
 				ED9FC35C24CB86BE00BEA9E2 /* SkewAnimationDemoView.swift in Sources */,
 				ED9BC52E24C1509100E73AD3 /* SheetNavigationView.swift in Sources */,
+				ED9B838024DCBA1200DA6A95 /* MaterialSliderDemoView.swift in Sources */,
 				EDE8CC1B24C1476400BA1AB1 /* AppDelegate.swift in Sources */,
 				EDE8CC1D24C1476400BA1AB1 /* SceneDelegate.swift in Sources */,
 				EDE8CC1F24C1476400BA1AB1 /* ContentView.swift in Sources */,
@@ -338,6 +430,7 @@
 		};
 		EDE8CC2C24C1476600BA1AB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7142E58D444A14D3255FE05B /* Pods-SwiftUIDemos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -357,6 +450,7 @@
 		};
 		EDE8CC2D24C1476600BA1AB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA273B1AE1BB8FC487D88EF /* Pods-SwiftUIDemos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
