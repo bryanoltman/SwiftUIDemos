@@ -35,6 +35,7 @@ struct MaterialSlider: UIViewRepresentable {
   }
 
   func updateUIView(_ uiView: MDCSlider, context: Context) {
+    uiView.setContentHuggingPriority(.defaultHigh, for: .vertical)
   }
 }
 

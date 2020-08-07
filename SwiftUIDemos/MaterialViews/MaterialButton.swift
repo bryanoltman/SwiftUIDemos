@@ -36,13 +36,15 @@ struct MaterialButton: UIViewRepresentable {
   }
 
   func updateUIView(_ uiView: MDCButton, context: Context) {
+    uiView.setContentHuggingPriority(.defaultHigh, for: .horizontal)
+    uiView.setContentHuggingPriority(.defaultHigh, for: .vertical)
   }
 }
 
 struct MaterialButton_Previews: PreviewProvider {
   static var previews: some View {
     MaterialButton("hello") {
-      print("asdflkjasdlkfjdsa")
+      print("Tapped!")
     }
   }
 }
